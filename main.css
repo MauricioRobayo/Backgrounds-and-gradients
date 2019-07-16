@@ -117,6 +117,9 @@ header h1 {
   overflow: hidden;
   margin-top: 22px;
 }
+aside section img {
+  flex: none;
+}
 .cta img {
   position: absolute;
   top: 0;
@@ -140,9 +143,6 @@ aside section:first-child {
 }
 aside section:last-child {
   margin-right: 0;
-}
-aside section img {
-  flex: none;
 }
 footer {
   max-width: 980px;
