@@ -1,5 +1,6 @@
 body {
   max-width: 1440px;
+  min-width: 1022px;
   margin: 0 auto;
   background-color: lightblue;
   font-family: sans-serif;
@@ -122,4 +123,16 @@ header h1 {
 }
 .cta img:hover {
   top: -32px;
+}
+aside {
+  display: flex;
+}
+aside section {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+aside section img {
+  flex: none;
 }
