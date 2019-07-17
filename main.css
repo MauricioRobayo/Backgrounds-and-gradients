@@ -107,34 +107,35 @@ article {
   background: url(./assets/main-background.jpg) bottom no-repeat;
   background-size: 1440px 1315px;
   margin-bottom: 2px;
-}
-header {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100%;
 }
-header h1 {
-  height: 91px;
-  overflow: hidden;
-}
-.cta {
-  position: relative;
-  height: 32px;
+article div {
+  margin: 16px 0;
   width: 980px;
-  overflow: hidden;
-  margin-top: 22px;
+  background-size: cover;
+  background-position: top;
+}
+.your-verse-title {
+  height: 91px;
+  background-image: url('/assets/your_verse_title_medium_2x.png');
+}
+.your-verse-subhead {
+  height: 82px;
+  background-image: url('/assets/your_verse_subhead_medium_2x.png');
+}
+.cta-your-verse {
+  height: 32px;
+  background-image: url('/assets/cta_your_verse_27pt_2x.png');
+}
+.cta-your-verse:hover {
+  background-position: bottom;
 }
 aside section img {
   flex: none;
-}
-.cta img {
-  position: absolute;
-  top: 0;
-}
-.cta img:hover {
-  top: -32px;
 }
 aside {
   display: flex;
