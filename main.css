@@ -134,13 +134,13 @@ article div {
 .cta-your-verse:hover {
   background-position: bottom;
 }
-aside section img {
+.promo section img {
   flex: none;
 }
-aside {
+.promo {
   display: flex;
 }
-aside section {
+.promo section {
   width: 25%;
   display: flex;
   justify-content: center;
@@ -148,13 +148,13 @@ aside section {
   margin-left: 1px;
   margin-right: 1px;
 }
-aside section:first-child {
+.promo section:first-child {
   margin-left: 0;
 }
-aside section:last-child {
+.promo section:last-child {
   margin-right: 0;
 }
-footer {
+.footer {
   max-width: 980px;
   margin-left: auto;
   margin-right: auto;
@@ -165,33 +165,33 @@ footer {
   color: #6e6e6e;
   padding-top: 8px;
 }
-footer a {
+.footer a {
   text-decoration: none;
   color: #0088cc;
 }
 .copyright {
   display: inline;
 }
-footer ul {
+.footer ul {
   display: inline-block;
   margin: 0;
   padding: 0;
 }
-footer li {
+.footer li {
   display: inline;
 }
-footer ul li {
+.footer ul li {
   border-left: 1px solid #ccc;
   padding-left: 6px;
   margin-left: 6px;
 }
-footer ul li:first-child {
+.footer ul li:first-child {
   border-left: none;
   padding-left: 0;
   margin-left: 0;
 }
-footer p,
-footer ul {
+.footer p,
+.footer ul {
   margin-top: 12px;
 }
 .worldwide {
