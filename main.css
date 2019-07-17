@@ -134,25 +134,40 @@ article div {
 .cta-your-verse:hover {
   background-position: bottom;
 }
-.promo section img {
-  flex: none;
+footer {
+  padding-bottom: 16px;
 }
 .promo {
   display: flex;
 }
-.promo section {
+.promo a {
   width: 25%;
-  display: flex;
-  justify-content: center;
   overflow: hidden;
   margin-left: 1px;
   margin-right: 1px;
 }
-.promo section:first-child {
+.promo a:first-child {
   margin-left: 0;
 }
-.promo section:last-child {
+.promo a:last-child {
   margin-right: 0;
+}
+.promo div {
+  width: 364px;
+  height: 200px;
+  background-position: center;
+}
+.promo-iphone5s {
+  background-image: url('/assets/promo_iphone5s.jpg');
+}
+.promo-iphone5c {
+  background-image: url('/assets/promo_iphone5c.jpg');
+}
+.promo-30-years {
+  background-image: url('/assets/promo_30_years.jpg');
+}
+.promo-supplier-responsibility {
+  background-image: url('assets/promo_supplier_responsibility.jpg');
 }
 .footer {
   max-width: 980px;
@@ -192,7 +207,7 @@ article div {
 }
 .footer p,
 .footer ul {
-  margin-top: 12px;
+  margin-top: 8px;
 }
 .worldwide {
   position: relative;
