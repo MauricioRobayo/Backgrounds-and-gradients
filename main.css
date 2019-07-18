@@ -40,7 +40,7 @@ nav a span {
   display: block;
   height: 30px;
   margin-top: 3px;
-  background-image: url(/assets/globalnav_text.svg);
+  background-image: url(assets/globalnav_text.svg);
 }
 .logo {
   background-position: 50% 0;
@@ -104,7 +104,7 @@ article {
   height: 592px;
   position: relative;
   top: 0;
-  background: url(./assets/main-background.jpg) bottom no-repeat;
+  background: url(assets/main-background.jpg) bottom no-repeat;
   background-size: 1440px 1315px;
   margin-bottom: 2px;
   display: flex;
@@ -120,15 +120,15 @@ article div {
 }
 .your-verse-title {
   height: 91px;
-  background-image: url('/assets/your_verse_title_medium_2x.png');
+  background-image: url('assets/your_verse_title_medium_2x.png');
 }
 .your-verse-subhead {
   height: 82px;
-  background-image: url('/assets/your_verse_subhead_medium_2x.png');
+  background-image: url('assets/your_verse_subhead_medium_2x.png');
 }
 .cta-your-verse {
   height: 32px;
-  background-image: url('/assets/cta_your_verse_27pt_2x.png');
+  background-image: url('assets/cta_your_verse_27pt_2x.png');
 }
 .cta-your-verse:hover {
   background-position: bottom;
@@ -161,13 +161,13 @@ footer a {
   background-position: center;
 }
 .promo-iphone5s {
-  background-image: url('/assets/promo_iphone5s.jpg');
+  background-image: url('assets/promo_iphone5s.jpg');
 }
 .promo-iphone5c {
-  background-image: url('/assets/promo_iphone5c.jpg');
+  background-image: url('assets/promo_iphone5c.jpg');
 }
 .promo-30-years {
-  background-image: url('/assets/promo_30_years.jpg');
+  background-image: url('assets/promo_30_years.jpg');
 }
 .promo-supplier-responsibility {
   background-image: url('assets/promo_supplier_responsibility.jpg');
